@@ -88,4 +88,14 @@ namespace FirstApp
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
     }
+    public class TestClass
+    { 
+        public int Id { get; private set; }
+        public string Name { get; set; }
+        public TestClass(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+    }
 }
